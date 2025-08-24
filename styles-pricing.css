@@ -1,0 +1,438 @@
+body{
+    font-family: "Poppins", sans-serif;
+    color: #22343D;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,p{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    display: block;
+    
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+/*Header*/
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding-left:25px;
+    padding-right: 25px; 
+}
+
+.header{
+    max-height: 80px;
+    margin-bottom: 100px;
+    
+}
+.header-container{
+    padding: 22px 0 22px 0;
+    display: flex;
+    align-items: center;
+    padding-left:25px;
+    padding-right: 25px;
+}
+
+.header-icon{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 237px;
+}
+
+.logo-text{
+    font-size: 30px;
+    line-height: 0.933;
+    font-weight: 700;
+    color: #173A56;
+}
+
+.header-navigation-menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-right: 73px;
+}
+
+.nav-menu-item{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    color:#22343D;
+}
+
+.nav-menu-item:hover, .nav-menu-item:focus{
+    font-weight: 600;
+}
+
+#nav-menu-item-studio{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.75;
+    color:#22343D;
+}
+
+
+.header-signin-button{
+    width: 105px;
+    height: 42px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #173A56;
+    text-align: center;
+    background-color: #ffffff;
+    margin-right:21px;
+}
+
+.header-signup-button{
+    width: 113px;
+    height: 42px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #ffffff;
+    text-align: center;
+    background-color: #02897A;
+    margin-right:21px;
+}
+
+.mobile-menu-button {
+    display: none;
+    padding: 0;
+}
+
+
+@media (max-width: 1158px){
+    .container{
+        width: 100%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+
+/*Main Section 1*/
+
+.pricing-section-one-container{
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.pricing-section-one-text1{
+    font-size: 24px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 100%; 
+}
+
+.pricing-section-one-header{
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.pricing-section-one-text2{
+    font-size: 16px;
+    line-height: 100%;
+    font-weight: 500;
+    margin-bottom: 49px;
+}
+
+
+.section-eight-price-cards-list{
+    display: flex;
+    
+    gap: 72px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-eight-price-cards-list-item{
+    width: calc((100% - 2*72px) / 3);
+    border: none;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.25);
+    border-radius: 8px;
+}
+
+.content-card-header{
+    margin: 32px auto 8px auto;
+    font-size: 24px;
+    line-height: 1.67;
+    font-weight: 700;
+}
+
+.content-card-text1{
+    margin: 0 auto 16px auto;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 16px;
+}
+.price-number{
+    color: #02897A;
+    font-size: 76px;
+    line-height: 1.32;
+    letter-spacing: 0.2px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.price-supplement{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+}
+
+.currency{
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    color: #02897A;
+}
+
+.permonth{
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    line-height: 1.19;
+    letter-spacing: 0.1px;
+    color: #AFAFAF;
+}
+
+.content-card-text2{
+    margin: 0 auto 16px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    line-height: 1.38;
+    letter-spacing: 0.2px;
+}
+
+.content-card-text3{
+    margin: 0 auto 16px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    line-height: 1.38;
+    letter-spacing: 0.2px;
+}
+
+.content-card-text4{
+    margin: 0 auto 30px auto;
+    font-family: "Montserrat", sans-serif;
+    font-size:16px;
+    line-height: 1.38;
+    letter-spacing: 0.2px;
+}
+
+.price-button{
+    display: block;
+    width: 139px;
+    height: 44px;
+    margin: 0 auto 32px auto; 
+    border-radius: 8px;
+    border: none;
+    background-color: #02897A;
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+}
+
+#middle-card1{
+    color: #ffffff;
+    background-color: #02897A;
+}
+
+#middle-card-button{
+    color:#02897A;
+    background-color: #ffffff;
+}
+
+#middle-card5{
+    color: #ffffff;
+}
+
+#middle-card6{
+    color: #ffffff;
+}
+
+#middle-card7{
+    color: #ffffff;
+}
+
+#middle-card8{
+    color: #ffffff;
+}
+
+
+/*Footer*/
+
+.footer{
+    margin-bottom: 40px;
+}
+
+.main-footer-container{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.footer-column-one{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 146px;
+}
+.footer-icon{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+}
+.sl-icons-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    
+}
+
+.sl-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #EDFFFC;
+}
+
+.footer-column-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-right: 129px;
+}
+
+.footer-column-two-list-header{
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.footer-column-two-list-item{
+    font-size: 16px;
+    line-height: 2.1875;
+}
+
+.footer-column-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+    margin-right: 109px;
+}
+
+.footer-form-header{
+    max-width: 280px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.footer-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-form{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.footer-tel-input-container{
+    position: relative;
+}
+
+.tel-input::placeholder{
+    color: #02897A;
+    font-size: 16px;
+}
+
+.tel-input{
+    width: 325px;
+    height: 48px;
+    padding-left: 4px;
+    border: 1px solid #BCD0E5;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    border-radius: 4px;
+    text-indent: 42px;
+}
+
+.input-icon{
+    position: absolute;
+    pointer-events: none;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 16px;
+    cursor: default;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button{
+    width: 131px;
+    height: 39px;
+    text-align: center;
+    background-color: #02897A;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.rights{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.875;
+}
