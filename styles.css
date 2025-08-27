@@ -41,10 +41,9 @@ img{
 .header{
     max-height: 80px;
     margin-bottom: 25px;
-    
+    padding: 22px 0 22px 0;
 }
 .header-container{
-    padding: 22px 0 22px 0;
     display: flex;
     align-items: center;
     padding-left:25px;
@@ -92,6 +91,12 @@ img{
     color:#22343D;
 }
 
+.header-buttons{
+    display: flex;
+    gap: 21px;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 .header-signin-button{
     width: 105px;
@@ -104,7 +109,6 @@ img{
     color: #173A56;
     text-align: center;
     background-color: #ffffff;
-    margin-right:21px;
 }
 
 .header-signup-button{
@@ -117,7 +121,6 @@ img{
     color: #ffffff;
     text-align: center;
     background-color: #02897A;
-    margin-right:21px;
 }
 
 .mobile-menu-button {
@@ -129,10 +132,49 @@ img{
 @media (max-width: 1158px){
     .container{
         width: 100%;
-        padding-left: 25px;
-        padding-right: 25px;
     }
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+    .header-buttons, .header-navigation-menu{
+        display: none;
+    }
+
+    .header{
+        max-height: 70px;
+        box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+    }
+    .header-icon{
+        margin-right: 0;
+    }
+    
+    .mobile-menu-button{
+        display: flex;
+        background: transparent;
+        border:none;
+        cursor: pointer;
+        width: 28px;
+        height: 31px;
+        position: absolute;
+        top: 19px;
+        right: 27px;
+        bottom: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:6px;
+    }
+
+    .mobile-menu-button-span{
+        display: block;
+        height: 3.5px;
+        color: #173a56;
+        width: 100%;
+        border-radius: 2.5px;
+        background-color: #173a56;
+    }
+}
+
 
 
 /*Main Section 1*/
@@ -193,7 +235,6 @@ img{
     text-decoration:underline;
     color: #02897A;
     font-size: 16px;
-    line-height: 100%;
     font-weight: 600;
 }
 
@@ -206,6 +247,30 @@ img{
     width: 100%;
     height: auto;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+    .section-one-container{
+        flex-direction: column-reverse;
+        gap: 11px;
+        align-items: center;
+        justify-content: center;
+        padding-left: 24px;
+        padding-right: 18px;
+    }
+    .section-one-text-container{
+        margin: 0 auto 100px auto;
+        text-align: center;
+    }
+    .section-one-text-list{
+        gap:28px;
+    }
+    
+}
+
+
+
+
+
 
 /*Main Section 2*/
 
@@ -313,6 +378,16 @@ img{
     line-height: 100%;
     font-weight: 700;
 }
+
+@media (min-width: 320px) and (max-width: 767px){
+    .section-two-icon-list{
+        flex-direction: column;
+    }
+    .section-two-text-list{
+        flex-direction: column;
+    }
+}
+
 
 /*Main Section 3*/
 

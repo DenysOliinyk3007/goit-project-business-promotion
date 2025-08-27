@@ -337,7 +337,7 @@ img{
 /*Main Section 3*/
 
 .resourses-section-three-container{
-    margin-bottom: 100px;
+    margin: 0 auto 100px auto;
     text-align: center;
 }
 
@@ -394,9 +394,101 @@ img{
     height: auto;
 }
 
+.resourses-section-three-form-container{
+    display: flex;
+    justify-content: center;
+}
 
 
+.resourses-section-three-form{
+    width: 868px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.resourses-section-three-form-header{
+    margin-top: 52px;
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 138%;
+    letter-spacing: 0em;
+    
+}
+
+.resourses-section-three-form-text{
+    background-color: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    border-radius: 39px;
+    padding: 19px 20px;
+    width: 768px;
+    height: 54px;
+    margin: 0 auto 45px auto;
+}
+
+.resourses-section-three-form-text::placeholder{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.resourses-section-three-form-email{
+    background-color: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    border-radius: 39px;
+    padding: 19px 20px;
+    width: 768px;
+    height: 54px;
+    margin: 0 auto 45px auto;
+}
+
+.resourses-section-three-form-email::placeholder{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.resourses-section-three-form-textarea{
+    border: 1px solid #e8e8e8;
+    padding: 23px 20px;
+    width: 768px;
+    height: 193px;
+    margin: 0 auto 45px auto;
+    background: #f5f5f5;
+    resize: none;
+}
+
+.resourses-section-three-form-textarea::placeholder{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.resourses-section-three-form-button{
+    border-radius: 35px;
+    padding: 18px 38px;
+    width: 145px;
+    height: 52px;
+    background: #02897a;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    color: #fff;
+    border: none;
+    margin: 0 auto 52px 50px;
+}
 
 
 
