@@ -29,7 +29,7 @@
             <nav>
                 <ul class = "header-navigation-menu">
                     <li>
-                        <a class = "nav-menu-item"  href = "./index.html">Product</a>
+                        <a class = "nav-menu-item" id = "nav-menu-item-studio" href = "./index.html">Product</a>
                     </li>
 
                     <li>
@@ -41,14 +41,21 @@
                     </li>
 
                     <li>
-                        <a class = "nav-menu-item" id = "nav-menu-item-studio" href = "./resourses.html">Resourses</a>
+                        <a class = "nav-menu-item" href = "./resourses.html">Resourses</a>
                     </li>
                 </ul>
             </nav>
 
-            <button class = "header-signin-button" type = "button">Sign In</button>
-            <button class = "header-signup-button" type = "button">Sign Up</button>
+            <ul class = "header-buttons">
+                <li>
+                    <button class = "header-signin-button" type = "button">Sign In</button>
+                </li>
 
+                <li>
+                    <button class = "header-signup-button" type = "button">Sign Up</button>
+                </li>
+            </ul>
+            
             <button class = "header-dark-theme-button" type = "button">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22ZM12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4Z" fill="#02897A" />
@@ -56,6 +63,7 @@
                 </svg>
             </button>
             
+
             <button class = "mobile-menu-button" type = "button">
                 <span class = "mobile-menu-button-span"></span>
                 <span class = "mobile-menu-button-span"></span>
@@ -63,6 +71,9 @@
             </button>
         </div>
     </header>
+
+    
+
 
     <main>
         <section>
@@ -96,7 +107,11 @@
                 </div>
 
                 <div class="resourses-section-one-image">
-                    <img src = "./images/Group_1452.png" alt = 'Hi'>
+                    <picture>
+                        <source media = "(max-width: 767px)" srcset = "./images/Group_1422.png">
+                        <source media = "(min-width: 768px)" srcset = "./images/Group_1452.png">
+                        <img class = "section-three-image" src = "./images/Group_1452.png" alt = "Hi">
+                    </picture>
                 </div>
             </div>
         </section>
@@ -178,7 +193,7 @@
                             <path d="M21.2505 2.52051H8.75049C5.29871 2.52051 2.50049 5.31873 2.50049 8.77051V21.2705C2.50049 24.7223 5.29871 27.5205 8.75049 27.5205H21.2505C24.7023 27.5205 27.5005 24.7223 27.5005 21.2705V8.77051C27.5005 5.31873 24.7023 2.52051 21.2505 2.52051Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M20.0006 14.2329C20.1549 15.2732 19.9772 16.3357 19.4928 17.2692C19.0084 18.2027 18.242 18.9597 17.3026 19.4325C16.3632 19.9053 15.2987 20.0699 14.2603 19.9028C13.222 19.7357 12.2628 19.2455 11.5192 18.5018C10.7755 17.7582 10.2853 16.799 10.1182 15.7607C9.95111 14.7223 10.1157 13.6578 10.5885 12.7184C11.0613 11.779 11.8183 11.0126 12.7518 10.5282C13.6853 10.0438 14.7478 9.86613 15.7881 10.0204C16.8493 10.1778 17.8317 10.6722 18.5902 11.4308C19.3488 12.1893 19.8433 13.1717 20.0006 14.2329Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M21.8755 8.14551H21.8881" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                          </svg>
+                        </svg>
                     </li>
 
                     <li>

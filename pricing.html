@@ -30,11 +30,11 @@
             <nav>
                 <ul class = "header-navigation-menu">
                     <li>
-                        <a class = "nav-menu-item" href = "./index.html">Product</a>
+                        <a class = "nav-menu-item"  href = "./index.html">Product</a>
                     </li>
 
                     <li>
-                        <a class = "nav-menu-item"  href = "./customers.html">Customers</a>
+                        <a class = "nav-menu-item" href = "./customers.html">Customers</a>
                     </li>
 
                     <li>
@@ -47,8 +47,18 @@
                 </ul>
             </nav>
 
-            <button class = "header-signin-button" type = "button">Sign In</button>
-            <button class = "header-signup-button" type = "button">Sign Up</button>
+            <ul class = "header-buttons">
+                <li>
+                    <button class = "header-signin-button" type = "button">Sign In</button>
+                </li>
+
+                <li>
+                    <button class = "header-signup-button" type = "button">Sign Up</button>
+                </li>
+            </ul>
+            
+            
+            
 
             <button class = "mobile-menu-button" type = "button">
                 <span class = "mobile-menu-button-span"></span>
@@ -63,7 +73,7 @@
             <div class="container pricing-section-one-container">
                 <p class="pricing-section-one-text1">PRICING</p>
                 <h1 class = "pricing-section-one-header">Let's get some real work done here.</h1>
-                <p class ="pricing-section-one-text2">Prodict is your perfect solution for working. Get started now for free</p>
+                <p class ="pricing-section-one-text2">Product is your perfect solution for working. Get started now for free</p>
                 <div class="section-eight-price-cards">
                     <ul class = "section-eight-price-cards-list">
                         <li class = "section-eight-price-cards-list-item">
@@ -133,7 +143,14 @@
                 <h2 class = "section-three-container-header">Product is being used with great effects alongside:</h2>
                 <div class="section-three-inner-container">
                     <div class="section-three-image-container">
-                        <img class = "section-three-image" src = "./images/amico.png" alt = "Hi">
+                        <picture>
+                            <source media = "(max-width: 767px)" srcset = "./images/amico2.png">
+                            <source media = "(min-width: 768px)" srcset = "./images/amico.png">
+                            <img class = "section-three-image" src = "./images/amico.png" alt = "Hi">
+                        </picture>
+
+
+                        
                     </div>
 
                     <div class="section-three-list-container">
