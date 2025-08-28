@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customers</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+    <link rel = "stylesheet" href = "./styles-customers-night.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class = "header">
+        <div class="container header-container">
+            <div class="header-icon">
+                <svg class = "logo-icon" width = "40" height = "36">
+                    <use href = "./images/icons.svg#icon-logo"></use>
+                </svg>
+                <a class = "logo-text" href = "./index.html">Product</a>
+            </div>
+            
+            <nav>
+                <ul class = "header-navigation-menu">
+                    <li>
+                        <a class = "nav-menu-item"  href = "./index-night.html">Product</a>
+                    </li>
+
+                    <li>
+                        <a class = "nav-menu-item" id = "nav-menu-item-studio" href = "./customers-night.html">Customers</a>
+                    </li>
+
+                    <li>
+                        <a class = "nav-menu-item" href  = "./pricing-night.html">Pricing</a>
+                    </li>
+
+                    <li>
+                        <a class = "nav-menu-item" href = "./resourses-night.html">Resourses</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <ul class = "header-buttons">
+                <li>
+                    <button class = "header-signin-button" type = "button">Sign In</button>
+                </li>
+
+                <li>
+                    <button class = "header-signup-button" type = "button">Sign Up</button>
+                </li>
+
+                <li>
+                    <a class = "header-dark-theme-button" href = "./resourses.html">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 22C17.514 22 22 17.514 22 12C22 6.486 17.514 2 12 2C6.486 2 2 6.486 2 12C2 17.514 6.486 22 12 22ZM12 4C16.411 4 20 7.589 20 12C20 16.411 16.411 20 12 20C7.589 20 4 16.411 4 12C4 7.589 7.589 4 12 4Z" fill="#02897A" />
+                            <path d="M19 12C19 8.134 15.865 5 12 5V19C15.865 19 19 15.866 19 12Z" fill="#02897A" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            
+            
+            
+
+            <button class = "mobile-menu-button" type = "button">
+                <span class = "mobile-menu-button-span"></span>
+                <span class = "mobile-menu-button-span"></span>
+                <span class = "mobile-menu-button-span"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class = "section-one">
+            <div class="container customers-section-one-container">
+                <h1 class = "customers-main-header">Our Clients</h1>
+                <div class="section-one-customer-list-container">
+                    <ul class = "section-one-customer-list">
+                        <li>
+                            <img src = "./images/AirbnbLogo.png">
+                        </li>
+
+                        <li>
+                            <img src = "./images/GoogleLogo.png">
+                        </li>
+
+                        <li>
+                            <img src = "./images/MicrosoftLogo.png">
+                        </li>
+
+                        <li>
+                            <img src = "./images/FedExLogo.png">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class = "section-two">
+            <div class="container customers-section-two-container">
+                <h2 class = "customers-section-two-header">Why Choose Product?</h2>
+                <div class="section-two-list-container">
+                    <ul class = "section-two-list">
+                        <li class = "section-two-list-item">
+                            <div class="section-two-icon-container-one">
+                                <svg class = "section-two-icon" width = "12" height = "18">
+                                    <use href = "./images/icons.svg#icon-clicker" ></use>
+                                </svg>
+                            </div>
+                            <h3 class = "section-two-list-header">Special Business</h3>
+                            <p class = "section-two-list-text">Product helps you see how many 
+                                more days you need to work 
+                                to reach your financial goal 
+                                for the month and year.</p>
+                        </li>
+                        <li class = "section-two-list-item">
+                            <div class="section-two-icon-container-two">
+                                <svg class = "section-two-icon" width = "12" height = "18">
+                                    <use href = "./images/icons.svg#icon-thingy" ></use>
+                                </svg>
+                            </div>
+                            <h3 class = "section-two-list-header">Instant Result</h3>
+                            <p class = "section-two-list-text">Product helps you see how many 
+                                more days you need to work 
+                                to reach your financial goal 
+                                for the month and year.</p>
+                        </li>
+                        <li class = "section-two-list-item">
+                            <div class="section-two-icon-container-three">
+                                <svg class = "section-two-icon" width = "12" height = "18">
+                                    <use href = "./images/icons.svg#icon-heart" ></use>
+                                </svg>
+                            </div>
+                            <h3 class = "section-two-list-header">Fastest way to organize</h3>
+                            <p class = "section-two-list-text">Product helps you see how many 
+                                more days you need to work 
+                                to reach your financial goal 
+                                for the month and year.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class = "section-three">
+            <div class="container customers-section-three-container">
+                <h2 class = "customers-section-three-header">How Product Work?</h2>
+                <div class="customers-section-three-list-item1">
+                    <div class="customers-section-three-image-container">
+                        <img class="customers-section-three-image" src = "./images/mac1.png">
+                    </div>
+
+                    <div class="customers-section-three-list-text">
+                        <p class="customers-section-three-list-text1">STEP 1</p>
+                        <p class="customers-section-three-list-text2">Apply for a product</p>
+                        <p class="customers-section-three-list-text3">Completing our easy step-by-step application form gives you access to multiple business with multiple products. We analyse your business through our proprietary credit analysis technology </p>
+                    </div>
+                </div>
+
+                <div class="customers-section-three-list-item2">
+                    <div class="customers-section-three-image-container">
+                        <img class="customers-section-three-image" src = "./images/mac2.png">
+                    </div>
+
+                    <div class="customers-section-three-list-text">
+                        <p class="customers-section-three-list-text1">STEP 2</p>
+                        <p class="customers-section-three-list-text2">Pay fully refundable</p>
+                        <p class="customers-section-three-list-text3">Product will contactting you instantly to receive payment of the Application Fee. if no offer of product is available, your fee will be fully refunded.</p>
+                    </div>
+                </div>
+
+                <div class="customers-section-three-list-item3">
+                    <div class="customers-section-three-image-container">
+                        <img class="customers-section-three-image" src = "./images/mac3.png">
+                    </div>
+
+                    <div class="customers-section-three-list-text">
+                        <p class="customers-section-three-list-text1">STEP 3</p>
+                        <p class="customers-section-three-list-text2">Completion</p>
+                        <p class="customers-section-three-list-text3">Product will continue to liase between borrower and manager to procees and complete a quick and efficient settlement</p>
+                    </div>
+                </div>
+
+                <button class = "customers-section-three-button">Get in touch with us</button>
+            </div>
+        </section>
+
+        <section class = "section-four">
+            <div class="container customers-section-four-container">
+                <h2 class = "customers-section-four-header">Join thousand of other who have <br> already received offers</h2>
+                <div class="customers-section-four-list">
+                    <div class="customers-section-four-list1">
+                        <div class="customers-icon-container1">
+                            <img src = "./images/Activity.png" width = "62" height = "62">
+                        </div>
+                        <div class="customers-section-fours-list1-text">
+                            <p class = "customers-section-fours-list1-text1">Business</p>
+                            <ul class = "customers-section-fours-inner-list">
+                                <li>
+                                    <p class = "customers-section-fours-list1-text-inner">Cash Flow</p>
+                                </li>
+                                <li>
+                                    <p class = "customers-section-fours-list1-text-inner">Asset Backed</p>
+                                </li>
+                                <li>
+                                    <p class = "customers-section-fours-list1-text-inner">Receivables Finance</p>
+                                </li>
+                            </ul>
+                            <p class = "customers-section-fours-list1-text2">Find the best business product</p>
+                        </div>
+                    </div>
+
+                    <div class="customers-section-four-list1">
+                        <div class="customers-icon-container2">
+                            <img src = "./images/Chart.png" width = "62" height = "62">
+                        </div>
+                        <div class="customers-section-fours-list1-text">
+                            <p class = "customers-section-fours-list1-text1">Enterprise</p>
+                            <ul class = "customers-section-fours-inner-list">
+                                <li>
+                                    <p class = "customers-section-fours-list1-text-inner">Site acquisition</p>
+                                </li>
+                                <li>
+                                    <p class = "customers-section-fours-list1-text-inner">Bridge</p>
+                                </li>
+                                <li>
+                                    <p class = "customers-section-fours-list1-text-inner">Development Financing</p>
+                                </li>
+                            </ul>
+                            <p class = "customers-section-fours-list1-text2">Find the best business product</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class = "section-ten">
+            <div class="container section-ten-container">
+                <div class="section-ten-column-one">
+                    <h2 class = "section-ten-header">Join 100 Companies who<br>boost their business with Product</h2>
+                    <button class ="section-ten-button" type = "button">Get This</button>
+                </div>
+
+                <div class="section-ten-image-container">
+                    <img class = "section-ten-image" src = "./images/screen.png" alt = "Hi">
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer class = "footer">
+        <div class="container main-footer-container">
+            <div class="footer-column-one">
+                <div class="footer-icon">
+                    <svg class = "logo-icon" width = "40" height = "36">
+                        <use href = "./images/icons.svg#icon-logo"></use>
+                    </svg>
+                    <a class = "logo-text" href = "./index.html">Product</a>
+                </div>
+    
+                <div class="sl-icons-container">
+                    <ul class = "sl-icons-list">
+                        <li class = "sl-link">
+                            <svg  width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M16 11.3698C16.1234 12.2021 15.9812 13.052 15.5937 13.7988C15.2062 14.5456 14.5931 15.1512 13.8416 15.5295C13.0901 15.9077 12.2384 16.0394 11.4077 15.9057C10.5771 15.7721 9.80971 15.3799 9.21479 14.785C8.61987 14.1901 8.22768 13.4227 8.09402 12.592C7.96035 11.7614 8.09202 10.9097 8.47028 10.1582C8.84854 9.40667 9.45414 8.79355 10.2009 8.40605C10.9477 8.01856 11.7977 7.8764 12.63 7.99981C13.4789 8.1257 14.2648 8.52128 14.8716 9.12812C15.4785 9.73496 15.8741 10.5209 16 11.3698Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M17.5 6.5H17.51" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </li>
+                        <li class = "sl-link">
+                            <svg width="13" height="22" viewBox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 1H9C7.67392 1 6.40215 1.52678 5.46447 2.46447C4.52678 3.40215 4 4.67392 4 6V9H1V13H4V21H8V13H11L12 9H8V6C8 5.73478 8.10536 5.48043 8.29289 5.29289C8.48043 5.10536 8.73478 5 9 5H12V1Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </li>
+                        <li class = "sl-link">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23 3.01006C22.0424 3.68553 20.9821 4.20217 19.86 4.54006C19.2577 3.84757 18.4573 3.35675 17.567 3.13398C16.6767 2.91122 15.7395 2.96725 14.8821 3.29451C14.0247 3.62177 13.2884 4.20446 12.773 4.96377C12.2575 5.72309 11.9877 6.62239 12 7.54006V8.54006C10.2426 8.58562 8.50127 8.19587 6.93101 7.4055C5.36074 6.61513 4.01032 5.44869 3 4.01006C3 4.01006 -1 13.0101 8 17.0101C5.94053 18.408 3.48716 19.109 1 19.0101C10 24.0101 21 19.0101 21 7.51006C20.9991 7.23151 20.9723 6.95365 20.92 6.68006C21.9406 5.67355 22.6608 4.40277 23 3.01006V3.01006Z" stroke="#02897A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-column-two">
+                <p class = 'footer-column-two-list-header'>Resourse</p>
+                <ul class = "footer-column-two-list">
+                    <li class = "footer-column-two-list-item">
+                        <p>About Us</p>
+                    </li>
+
+                    <li class = "footer-column-two-list-item">
+                        <p>Blog</p>
+                    </li>
+
+                    <li class = "footer-column-two-list-item">
+                        <p>Contact</p>
+                    </li>
+
+                    <li class = "footer-column-two-list-item">
+                        <p>FAQ</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-column-three">
+                <p class = 'footer-column-two-list-header'>Legal Stuff</p>
+                <ul class = "footer-column-two-list">
+                    <li class = "footer-column-two-list-item">
+                        <p>Disclaimer</p>
+                    </li>
+
+                    <li class = "footer-column-two-list-item">
+                        <p>Financing</p>
+                    </li>
+
+                    <li class = "footer-column-two-list-item">
+                        <p>Privacy Policy</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-form-container">
+                <p class = 'footer-form-header'>knowing you're always on the best energy deal</p>
+                <form class = "footer-form">
+                    <label class = "tel-label" for = "footer-tel-input"></label>
+                    <div class="footer-tel-input-container">
+                        <input class = "tel-input" type = "tel" name = "footer-tel-input" placeholder="Enter your phone number">
+                        <svg class = "input-icon" width="16" height="24" viewBox="0 0 16 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13.8182 0H2.18182C0.977273 0 0 1.00781 0 2.25V21.75C0 22.9922 0.977273 24 2.18182 24H13.8182C15.0227 24 16 22.9922 16 21.75V2.25C16 1.00781 15.0227 0 13.8182 0ZM10.1818 20.9578C10.1818 21.4125 9.85455 21.75 9.45455 21.75H6.50455C6.14545 21.75 5.81818 21.4125 5.81818 21C5.81818 20.5875 6.14545 20.25 6.54545 20.25H9.45455C9.85455 20.25 10.1818 20.5875 10.1818 20.9578ZM13.0909 18H2.90909V3H13.0909V18Z" fill="#02897A" />
+                        </svg>
+                    </div>
+                        
+                    <button class = "form-button">
+                        Sign up Now
+                    </button>
+                </form>
+            </div>
+        </div>
+        <p class = "rights">Made With Love By Figmaland All Right Reserved</p>
+    </footer>
+</body>
+</html>
