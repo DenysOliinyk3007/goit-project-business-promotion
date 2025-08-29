@@ -419,7 +419,7 @@ img{
     font-weight: 500;
     font-size: 18px;
     line-height: 144%;
-    color: #22343d;
+    color: #ffffff;
 }
 
 @media (min-width: 320px) and (max-width: 767px){
@@ -446,7 +446,7 @@ img{
     line-height: 168%;
     letter-spacing: 0.01em;
     text-align: center;
-    color: #252b42;
+    color: #ffffff;
 }
 
 .resourses-section-three-text{
@@ -457,7 +457,7 @@ img{
     line-height: 156%;
     letter-spacing: 0.01em;
     margin: 0 auto 55px auto;
-    color: #374754;
+    color: #ffffff;
 }
 
 .resourses-section-three-sl-list{
@@ -483,6 +483,8 @@ img{
     margin: 0 auto 50px auto;
     width: 100%;
     max-width: 871px;
+    border-radius: 5%;
+    overflow: hidden; 
 }
 
 .resourses-section-three-image-container img{
@@ -498,12 +500,13 @@ img{
 
 .resourses-section-three-form{
     width: 868px;
-    border: 1px solid #ddd;
+    border: 1px solid #464646;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: #22343d;
 }
 
 .resourses-section-three-form-header{
